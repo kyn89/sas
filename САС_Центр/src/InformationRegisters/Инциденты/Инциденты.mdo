@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="771a7ac6-aecd-41da-b3c1-a3553cafa56b">
+  <producedTypes>
+    <selectionType typeId="5d7f1479-94a6-42d4-b0be-981f3f3f8d43" valueTypeId="8ef87042-65e4-49a9-ba88-448105576749"/>
+    <listType typeId="e0c9bc87-087c-4c87-bdd3-a72e48781bac" valueTypeId="0f5922c8-8ff3-4cd6-a309-a5ccc9b3b827"/>
+    <managerType typeId="e6a45708-9a8c-4f3a-9914-a3320f5b1c62" valueTypeId="f0f11207-dfe0-48c1-89d2-c1ff24fd8c75"/>
+    <recordSetType typeId="1e57dc52-dd03-4e35-b39f-f50e934744fa" valueTypeId="49b75bb6-33f0-4679-a3bd-a98eab81ec7c"/>
+    <recordKeyType typeId="7ec2832f-1b7b-49a8-b070-6d91c3a172d2" valueTypeId="e1f8b2e9-8953-4702-bfdb-fcb1f251e491"/>
+    <recordType typeId="8db3531e-a93e-447a-a3a4-48e8f31a28c0" valueTypeId="c950bb89-6120-4fc8-bc15-2bd323558f31"/>
+    <recordManagerType typeId="0d3f530f-9b8a-44c6-a393-f95900c69d23" valueTypeId="8b4d31c8-7737-435d-9c1f-1a9dec12f200"/>
+  </producedTypes>
+  <name>Инциденты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инциденты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c902b117-6ceb-483c-be2d-d93517f8e93b">
+    <name>Хэш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="fe99cabd-bf27-4778-a11b-e85638c83f9f">
+    <name>Инцидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инцидент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

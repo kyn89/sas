@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cca02702-4958-4e5d-8696-3c053c969a54">
+  <producedTypes>
+    <objectType typeId="5bd73031-95ba-4aa6-ad9f-595c0e57f5f4" valueTypeId="47606224-ce28-4b8d-a406-da7843410353"/>
+    <refType typeId="fec4e84b-ff29-4e89-bab1-a7cecbe09e49" valueTypeId="0410692a-644e-4656-b0f6-0567030f7d69"/>
+    <selectionType typeId="defc5573-98bd-4379-b02a-26e2b852f786" valueTypeId="0eea22b1-7edc-48be-95c3-1d0bf5bf7414"/>
+    <listType typeId="fd7d7f06-b513-4d26-bd5e-669e490b8bc0" valueTypeId="4fe36880-72f4-452e-9d86-d415be879be7"/>
+    <managerType typeId="6c806524-436d-4fce-8a1f-5fda4acdcadb" valueTypeId="0193ba1e-de84-4073-9fec-9c607becc3c7"/>
+  </producedTypes>
+  <name>Инцидент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инцидент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Инцидент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Инцидент.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2742092f-f488-4617-8d0b-e41ada29b848">
+    <name>ТекстОтчетаJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст отчета JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72a96c6f-c19d-4821-a029-83eacf32fd85">
+    <name>ОтветYandexGPT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ yandex GPT</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dbc2c19b-f171-4593-bb77-8048089d150d">
+    <name>ОтветПолучен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ получен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2ce82d9d-ae68-4cf0-81d3-3fbfa9eac6a0">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="67d9ebb5-0178-41de-a3b3-ff0142b462d3">
+    <producedTypes>
+      <objectType typeId="1603849f-1875-439d-af2a-c6568968a5c5" valueTypeId="e42e7423-bb20-45ad-908a-d4afa7710a3e"/>
+      <rowType typeId="701ae878-e2ea-4b0f-bd2c-bfd373dec2c9" valueTypeId="ebb113d7-41b4-4c78-b6b2-783d1ba8ef50"/>
+    </producedTypes>
+    <name>ПрисоединенныеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присоединенные файлы</value>
+    </synonym>
+    <attributes uuid="cfdc6dd6-3243-49e2-8083-7820c2b8c9b4">
+      <name>Файл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПрисоединённыеФайлыИнциденты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0fedaac1-c938-4fa7-92bd-264448b71686">
+      <name>РасширениеФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расширение файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
