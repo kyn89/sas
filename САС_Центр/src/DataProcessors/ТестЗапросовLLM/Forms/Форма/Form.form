@@ -45,7 +45,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DataProcessorObject.ТестЯндексГПТ</types>
+      <types>DataProcessorObject.ТестЗапросовLLM</types>
     </valueType>
     <view>
       <common>true</common>

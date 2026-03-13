@@ -61,7 +61,7 @@
   <dataProcessors>DataProcessor.mcp_РесурсОписаниеСинтаксисаВстроенногоЯзыка</dataProcessors>
   <dataProcessors>DataProcessor.mcp_ВыполнениеЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.mcp_ИнструментДанныеОКонфигурацииКлиента</dataProcessors>
-  <dataProcessors>DataProcessor.ТестЯндексГПТ</dataProcessors>
+  <dataProcessors>DataProcessor.ТестЗапросовLLM</dataProcessors>
   <dataProcessors>DataProcessor.Тест</dataProcessors>
   <informationRegisters>InformationRegister.Инциденты</informationRegisters>
   <informationRegisters>InformationRegister.ИнцидентыКОбработке</informationRegisters>

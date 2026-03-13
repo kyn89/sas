@@ -73,6 +73,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0ad3d92b-0a40-40e6-9a59-720f87234a55">
+    <name>ИдКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="2ce82d9d-ae68-4cf0-81d3-3fbfa9eac6a0">
     <name>ФормаДокумента</name>
     <synonym>

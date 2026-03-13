@@ -9,7 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Инцидент</content>
   <content>Catalog.ПрисоединённыеФайлыИнциденты</content>
-  <content>DataProcessor.ТестЯндексГПТ</content>
+  <content>DataProcessor.ТестЗапросовLLM</content>
   <content>InformationRegister.Инциденты</content>
   <content>InformationRegister.ИнцидентыКОбработке</content>
   <content>InformationRegister.ДанныеОбъектовСопровождения</content>

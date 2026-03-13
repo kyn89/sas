@@ -4,13 +4,13 @@
     <objectType typeId="9c136fe6-2ca3-4f1d-ba2a-5b0b8f699259" valueTypeId="8b4c58bf-1b07-4f30-8222-1f144051effc"/>
     <managerType typeId="ef8af577-9d7a-49af-a787-dddcb4edd6b3" valueTypeId="44503ed1-a5fc-4cdd-ac1b-04f04b4d8b77"/>
   </producedTypes>
-  <name>ТестЯндексГПТ</name>
+  <name>ТестЗапросовLLM</name>
   <synonym>
     <key>ru</key>
-    <value>Тест яндекс ГПТ</value>
+    <value>Тест запросов LLM</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.ТестЯндексГПТ.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ТестЗапросовLLM.Form.Форма</defaultForm>
   <forms uuid="ae9a74c1-fd9a-4556-bdf1-a1a3ff4339e2">
     <name>Форма</name>
     <synonym>
