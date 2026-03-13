@@ -40,15 +40,27 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.mcp_MCPСервер</subsystems>
   <subsystems>Subsystem.Инциденты</subsystems>
+  <commonModules>CommonModule.mcp_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.mcp_КонтейнерыПовтИсп</commonModules>
+  <commonModules>CommonModule.mcp_Метаданные</commonModules>
+  <commonModules>CommonModule.mcp_Выполнение</commonModules>
+  <commonModules>CommonModule.mcp_Содержимое</commonModules>
   <commonModules>CommonModule.САС_Сервер</commonModules>
   <commonModules>CommonModule.ЯндексGPT</commonModules>
+  <httpServices>HTTPService.mcp_APIBackend</httpServices>
   <httpServices>HTTPService.sas</httpServices>
   <scheduledJobs>ScheduledJob.ОтправкаЗапросовYandexGPT</scheduledJobs>
   <constants>Constant.APIКлюч</constants>
   <constants>Constant.IDКаталога</constants>
   <catalogs>Catalog.ПрисоединённыеФайлыИнциденты</catalogs>
   <documents>Document.Инцидент</documents>
+  <dataProcessors>DataProcessor.mcp_УправлениеСервером</dataProcessors>
+  <dataProcessors>DataProcessor.mcp_ИнструментДанныеОКонфигурации</dataProcessors>
+  <dataProcessors>DataProcessor.mcp_РесурсОписаниеСинтаксисаВстроенногоЯзыка</dataProcessors>
+  <dataProcessors>DataProcessor.mcp_ВыполнениеЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.mcp_ИнструментДанныеОКонфигурацииКлиента</dataProcessors>
   <dataProcessors>DataProcessor.ТестЯндексГПТ</dataProcessors>
   <dataProcessors>DataProcessor.Тест</dataProcessors>
   <informationRegisters>InformationRegister.Инциденты</informationRegisters>
