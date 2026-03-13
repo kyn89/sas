@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbd2f52d-db10-4f36-a260-3dde9c8ba62d">
+  <name>САС_УправленияПоддержкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управления поддержкой (САС)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>
