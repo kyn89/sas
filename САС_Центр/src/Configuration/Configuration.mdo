@@ -12,6 +12,11 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -39,15 +44,14 @@
   <commonModules>CommonModule.САС_Сервер</commonModules>
   <commonModules>CommonModule.ЯндексGPT</commonModules>
   <httpServices>HTTPService.sas</httpServices>
-  <httpServices>HTTPService.HTTPАлиса</httpServices>
-  <httpServices>HTTPService.HTTPСервис</httpServices>
   <scheduledJobs>ScheduledJob.ОтправкаЗапросовYandexGPT</scheduledJobs>
   <constants>Constant.APIКлюч</constants>
   <constants>Constant.IDКаталога</constants>
   <catalogs>Catalog.ПрисоединённыеФайлыИнциденты</catalogs>
-  <catalogs>Catalog.test</catalogs>
   <documents>Document.Инцидент</documents>
   <dataProcessors>DataProcessor.ТестЯндексГПТ</dataProcessors>
+  <dataProcessors>DataProcessor.Тест</dataProcessors>
   <informationRegisters>InformationRegister.Инциденты</informationRegisters>
   <informationRegisters>InformationRegister.ИнцидентыКОбработкеYandexGPT</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеОбъектовСопровождения</informationRegisters>
 </mdclass:Configuration>
