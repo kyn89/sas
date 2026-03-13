@@ -64,6 +64,6 @@
   <dataProcessors>DataProcessor.ТестЯндексГПТ</dataProcessors>
   <dataProcessors>DataProcessor.Тест</dataProcessors>
   <informationRegisters>InformationRegister.Инциденты</informationRegisters>
-  <informationRegisters>InformationRegister.ИнцидентыКОбработкеYandexGPT</informationRegisters>
+  <informationRegisters>InformationRegister.ИнцидентыКОбработке</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбъектовСопровождения</informationRegisters>
 </mdclass:Configuration>

@@ -9,10 +9,10 @@
     <recordType typeId="c4721d7a-7d22-4a00-9d28-feccd551b65e" valueTypeId="fd116e3b-5795-4f2d-97b1-abdf19951380"/>
     <recordManagerType typeId="36cc2d26-fb7a-4584-91c2-5e46d0c71bfd" valueTypeId="4a2369eb-d5f2-4559-9de7-9d21aaa5e19e"/>
   </producedTypes>
-  <name>ИнцидентыКОбработкеYandexGPT</name>
+  <name>ИнцидентыКОбработке</name>
   <synonym>
     <key>ru</key>
-    <value>Инциденты к обработке yandex GPT</value>
+    <value>Инциденты к обработке</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

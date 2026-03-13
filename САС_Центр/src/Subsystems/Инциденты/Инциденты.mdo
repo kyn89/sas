@@ -11,6 +11,6 @@
   <content>Catalog.ПрисоединённыеФайлыИнциденты</content>
   <content>DataProcessor.ТестЯндексГПТ</content>
   <content>InformationRegister.Инциденты</content>
-  <content>InformationRegister.ИнцидентыКОбработкеYandexGPT</content>
+  <content>InformationRegister.ИнцидентыКОбработке</content>
   <content>InformationRegister.ДанныеОбъектовСопровождения</content>
 </mdclass:Subsystem>
