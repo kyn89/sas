@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Отправка запросов yandex GPT</value>
   </synonym>
-  <methodName>CommonModule.САС_Сервер.ОтправкаЗапросовYandexGPT</methodName>
+  <methodName>CommonModule.САС_ОбщегоНазначенияСервер.ОтправкаЗапросовYandexGPT</methodName>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

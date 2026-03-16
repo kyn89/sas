@@ -47,7 +47,7 @@
   <commonModules>CommonModule.mcp_Метаданные</commonModules>
   <commonModules>CommonModule.mcp_Выполнение</commonModules>
   <commonModules>CommonModule.mcp_Содержимое</commonModules>
-  <commonModules>CommonModule.САС_Сервер</commonModules>
+  <commonModules>CommonModule.САС_ОбщегоНазначенияСервер</commonModules>
   <commonModules>CommonModule.ЯндексGPT</commonModules>
   <httpServices>HTTPService.mcp_APIBackend</httpServices>
   <httpServices>HTTPService.sas</httpServices>
@@ -64,6 +64,6 @@
   <dataProcessors>DataProcessor.ТестЗапросовLLM</dataProcessors>
   <dataProcessors>DataProcessor.Тест</dataProcessors>
   <informationRegisters>InformationRegister.Инциденты</informationRegisters>
-  <informationRegisters>InformationRegister.ИнцидентыКОбработке</informationRegisters>
+  <informationRegisters>InformationRegister.ИнцидентыКОбработкеLlm</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбъектовСопровождения</informationRegisters>
 </mdclass:Configuration>
