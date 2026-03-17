@@ -17,11 +17,84 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="c902b117-6ceb-483c-be2d-d93517f8e93b">
-    <name>Хэш</name>
+  <resources uuid="51c3f3dc-030d-47a9-902e-93bb74c10283">
+    <name>report</name>
     <synonym>
       <key>ru</key>
-      <value>Хэш</value>
+      <value>Report</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <attributes uuid="b89bd058-18df-4ea5-ae37-20066b26ffd9">
+    <name>reportId</name>
+    <synonym>
+      <key>ru</key>
+      <value>ReportId</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="fe99cabd-bf27-4778-a11b-e85638c83f9f">
+    <name>Инцидент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инцидент</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Инцидент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0201fa2d-0e72-4445-a558-fba7ca5f5f72">
+    <name>ИдКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f8ff05a2-f2bd-4d0b-bd7a-40cf3466e878">
+    <name>ХэшОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш ошибки</value>
     </synonym>
     <type>
       <types>String</types>
@@ -34,43 +107,5 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue"/>
-  </resources>
-  <dimensions uuid="fe99cabd-bf27-4778-a11b-e85638c83f9f">
-    <name>Инцидент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Инцидент</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="0201fa2d-0e72-4445-a558-fba7ca5f5f72">
-    <name>ИдКлиента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ид клиента</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue"/>
-    <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>
