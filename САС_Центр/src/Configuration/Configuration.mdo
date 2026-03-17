@@ -55,6 +55,7 @@
   <constants>Constant.APIКлюч</constants>
   <constants>Constant.IDКаталога</constants>
   <catalogs>Catalog.ПрисоединённыеФайлыИнциденты</catalogs>
+  <catalogs>Catalog.НастройкиЗапросовLlm</catalogs>
   <documents>Document.Инцидент</documents>
   <dataProcessors>DataProcessor.mcp_УправлениеСервером</dataProcessors>
   <dataProcessors>DataProcessor.mcp_ИнструментДанныеОКонфигурации</dataProcessors>

@@ -43,10 +43,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="72a96c6f-c19d-4821-a029-83eacf32fd85">
-    <name>ОтветYandexGPT</name>
+    <name>ОтветLlm</name>
     <synonym>
       <key>ru</key>
-      <value>Ответ yandex GPT</value>
+      <value>Ответ llm</value>
     </synonym>
     <type>
       <types>String</types>
@@ -88,6 +88,21 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="750d5543-312d-452b-85fe-fe41ef8d5332">
+    <name>НастройкаLLM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка LLM</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиЗапросовLlm</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

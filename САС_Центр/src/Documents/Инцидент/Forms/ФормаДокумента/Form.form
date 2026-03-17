@@ -248,15 +248,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:Button">
-    <name>СпроситьLM</name>
+    <name>СпроситьLlm</name>
     <id>42</id>
+    <title>
+      <key>ru</key>
+      <value>Спросить LLM</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>СпроситьLMРасширеннаяПодсказка</name>
+      <name>СпроситьLlmРасширеннаяПодсказка</name>
       <id>43</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -1756,7 +1760,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ОтветYandexGPT</segments>
+          <segments>Объект.ОтветLlm</segments>
         </dataPath>
         <extendedTooltip>
           <name>ОтветYandexGPT1РасширеннаяПодсказка</name>
@@ -2354,7 +2358,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>СпроситьLM</name>
+        <name>СпроситьЯзыковуюМодель</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
