@@ -63,6 +63,7 @@
   <dataProcessors>DataProcessor.mcp_ИнструментДанныеОКонфигурацииКлиента</dataProcessors>
   <dataProcessors>DataProcessor.ТестЗапросовLLM</dataProcessors>
   <dataProcessors>DataProcessor.Тест</dataProcessors>
+  <dataProcessors>DataProcessor.mcp_РесурсОписаниеКонфигурацииКлиента</dataProcessors>
   <informationRegisters>InformationRegister.Инциденты</informationRegisters>
   <informationRegisters>InformationRegister.ИнцидентыКОбработкеLlm</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбъектовСопровождения</informationRegisters>
