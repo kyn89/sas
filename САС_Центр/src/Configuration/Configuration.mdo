@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="959f6901-3c79-4076-b468-73fb96ba06c3">
-  <name>Конфигурация</name>
+  <name>САС</name>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="341b7d0a-4b4b-46b1-822b-54a31570a106"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f2d003d8-a60d-4e0a-b03b-51f933cd2e0b"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="329303fb-f2a0-4855-bf8b-1bb5c5442032"/>
@@ -12,6 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <version>0.0.0.1</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -40,8 +41,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Сопровождение</subsystems>
   <subsystems>Subsystem.mcp_MCPСервер</subsystems>
-  <subsystems>Subsystem.Инциденты</subsystems>
   <commonModules>CommonModule.mcp_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.mcp_КонтейнерыПовтИсп</commonModules>
   <commonModules>CommonModule.mcp_Метаданные</commonModules>
