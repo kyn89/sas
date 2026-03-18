@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a30875b-22a1-4a78-8e46-de3982792414">
+  <name>Сопровождение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопровождение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>Инциденты</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Сервис</subsystems>
+</mdclass:Subsystem>

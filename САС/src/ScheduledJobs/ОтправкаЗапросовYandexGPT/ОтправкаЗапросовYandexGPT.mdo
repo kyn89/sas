@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="391a40b7-c9ac-4e50-a697-b7e5e87e09d2">
+  <name>ОтправкаЗапросовYandexGPT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка запросов yandex GPT</value>
+  </synonym>
+  <methodName>CommonModule.САС_ОбщегоНазначенияСервер.ОтправкаЗапросовYandexGPT</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

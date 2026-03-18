@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57f18aa4-135a-47cc-b39c-a316791a627a">
+  <name>sas</name>
+  <synonym>
+    <key>ru</key>
+    <value>САС</value>
+  </synonym>
+  <rootURL>main</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="0e6c3f95-fc76-4b69-930d-8d2fb304041b">
+    <name>getInfo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get info</value>
+    </synonym>
+    <template>/getInfo</template>
+    <methods uuid="2c317426-029b-434c-b6c8-1c85d4eda0ea">
+      <name>GetInfo</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get info</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>GetInfo</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="61cd6713-7ab9-4b51-954a-6e51157e3953">
+    <name>PushReport</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push report</value>
+    </synonym>
+    <template>/pushReport</template>
+    <methods uuid="b239cc72-db3c-4c77-b7b3-b3680d78d39f">
+      <name>PushReport</name>
+      <synonym>
+        <key>ru</key>
+        <value>Push report</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PushReport</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

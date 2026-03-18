@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d33b2f9b-52e4-4ed7-be4d-2bef1f78617a">
+  <producedTypes>
+    <selectionType typeId="450fb6a1-106c-4cb7-8e12-13e5cda999f4" valueTypeId="af710f00-5daf-4a3a-b4b6-ecb15531fa05"/>
+    <listType typeId="d918c055-17e8-40d1-9560-6f2c11df577d" valueTypeId="5dac3074-155f-45ac-841d-d1696afa024b"/>
+    <managerType typeId="210ed14b-cacc-44a3-8491-c8d133dd6d2f" valueTypeId="82759f85-fd67-4fe3-b1e6-8ebf51acb057"/>
+    <recordSetType typeId="14aa9996-a8b8-47fe-8e5e-cd98a50dc7d3" valueTypeId="8c698429-560c-4060-a7c7-14c0de84a3eb"/>
+    <recordKeyType typeId="c5bc092c-c32f-4b13-88b2-1b411b14cb6d" valueTypeId="554d61a8-8c00-4ddd-9eca-0a3617eb5c9d"/>
+    <recordType typeId="a9ee013f-09ca-4299-bd47-a0969cd29e95" valueTypeId="d25fdca5-cb68-4e97-b30f-da134519a682"/>
+    <recordManagerType typeId="1725386d-2078-4ba9-b811-259af5026c77" valueTypeId="197bf332-df1c-443c-a435-fede7acbe693"/>
+  </producedTypes>
+  <name>ДанныеОбъектовСопровождения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные объектов сопровождения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДанныеОбъектовСопровождения.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="ef82cbb8-ace6-4ccd-9b8e-866a6880216e">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="166ff33f-f4a4-4d0b-99bb-ca4b7b740f1e">
+    <name>РазмерФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер файла</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8101774b-14b8-4350-adce-6e385c1f60a5">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0b1b3bef-e03d-4b3b-8a1b-1c591dbf1498">
+    <name>ИдКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="171b863c-33ff-4e64-adc2-914524651533">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

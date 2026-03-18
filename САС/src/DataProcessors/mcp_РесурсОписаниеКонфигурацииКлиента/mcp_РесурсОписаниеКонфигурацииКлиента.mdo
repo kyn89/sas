@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="030ad0c5-31cc-4549-a26c-a6c369c89562">
+  <producedTypes>
+    <objectType typeId="41882224-18b5-4089-8372-788a6f101891" valueTypeId="b152517a-eb74-498b-a97a-c20b982df930"/>
+    <managerType typeId="931995ce-f597-49ca-9fb4-86f1e605ff6b" valueTypeId="98205436-3089-40b0-834d-0f480b21707e"/>
+  </producedTypes>
+  <name>mcp_РесурсОписаниеКонфигурацииКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описание конфигурации клиента в файлах (ресурс)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="ebfce2ac-6b7d-4df2-8c57-662c82564a0c">
+    <name>syntax_1c</name>
+    <synonym>
+      <key>ru</key>
+      <value>Syntax 1c</value>
+    </synonym>
+    <synonym>
+      <key>ru1</key>
+      <value>Syntax 1c</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

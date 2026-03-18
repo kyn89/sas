@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6055ec5a-419f-4e70-9133-1feabb56e4c7">
+  <producedTypes>
+    <objectType typeId="abe682e1-a698-49aa-9f96-ee13516a05b7" valueTypeId="520818f2-6a40-43f9-9448-6d14aab9a08d"/>
+    <managerType typeId="dced2749-6522-4c1d-98a8-19af0155270c" valueTypeId="bb31443d-4ca4-49a8-91b8-58341ef182aa"/>
+  </producedTypes>
+  <name>mcp_ИнструментДанныеОКонфигурацииКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные о конфигурации (инструмент)</value>
+  </synonym>
+  <synonym>
+    <key>ru1</key>
+    <value>Инструмент данные о конфигурации клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>
