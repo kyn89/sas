@@ -1789,10 +1789,10 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ОтветYandexGPT</name>
+      <name>ГруппаОтветLLM</name>
       <id>32</id>
       <items xsi:type="form:FormField">
-        <name>ОтветYandexGPT1</name>
+        <name>Ответllm</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1803,7 +1803,7 @@
           <segments>Объект.ОтветLlm</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ОтветYandexGPT1РасширеннаяПодсказка</name>
+          <name>ОтветllmРасширеннаяПодсказка</name>
           <id>36</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1813,7 +1813,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ОтветYandexGPT1КонтекстноеМеню</name>
+          <name>ОтветllmКонтекстноеМеню</name>
           <id>35</id>
           <autoFill>true</autoFill>
         </contextMenu>
@@ -1838,14 +1838,14 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Ответ yandex GPT</value>
+        <value>Ответ LLM</value>
       </title>
       <toolTip>
         <key>ru</key>
         <value>Ответ yandex GPT</value>
       </toolTip>
       <extendedTooltip>
-        <name>ОтветYandexGPTРасширеннаяПодсказка</name>
+        <name>ГруппаОтветLLMРасширеннаяПодсказка</name>
         <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
